@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/afficher.css">
+    <link rel="stylesheet" href="css/afficherAnimation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Hanout</title>
+</head>
+<body>
+    <div class="container">
+      
+      <h1 id="titreAf">Liste des produits</h1>
+       <div class="afficherProduit">
+       </div>
+
+       <div class="sommaire">
+
+       </div>
+    </div>
+
+    <div id="spanS">
+   <div id="symbole">
+    <span  class="material-symbols-outlined">shopping_cart</span>
+    <p id="nombreAchat">0</p>
+    </div>
+    <div class="listDesachat displayNone">
+        <table class="maTable">
+            <thead>
+                <tr>
+                <th> Produit</th>
+                <th> Quantité</th>
+                <th> Prix.U</th>
+                <th>Prix.T</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyList">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                <td>Total</td>
+                <td id="totaArticle"> </td>
+                <td  id="prixTotal" colspan="2"> 0 </td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="ok"> OK</div>
+    </div>
+    
+</div>  
+<div class="menu">
+    
+    <span id="iconAdd" class="material-symbols-outlined">
+        add_circle
+        </span>
+   <a href="ajouter.html">Ajouter produit </a>         
+</div>
+<div class="liste">
+    <span id="iconListe" class="material-symbols-outlined">
+        list_alt
+        </span>
+     <a href="listeAchat.html">list Des Achats </a>        
+</div>
+<div class="stats">
+    <span id="iconState"class="material-symbols-outlined">
+        finance
+        </span>
+       <a href="state.html">Statistiques</a> 
+</div>
+
+   
+
+   <script src="js/afficher.js"></script>
+   <script src="js/afficherAnimation.js"></script>
+    <script src="js/validerAchat.js"></script>
+</body>
+
+</html>

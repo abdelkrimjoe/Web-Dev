@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Hanout</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="choix">
+            <label>
+                <input type="radio" name="choix" value="jour">
+                jour
+            </label>
+            <label>
+                <input type="radio" name="choix" value="Mois">
+                Mois
+            </label>
+            <label>
+                <input type="radio" name="choix" value="Année">
+                Année
+            </label>
+            <label>
+                <input type="radio" name="choix" value="Intervale">
+                Intervale
+            </label>
+        </div>
+        <div class="selection">
+            <label id="start">Debut</label>
+            <select id="startS"></select>
+            <label id="end">Fin</label>
+            <select id="endS"></select>
+        </div>
+
+        <div class="statGenerale">
+            <div class="Statistique">
+                <div class="chiffre">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="titreTableau" colspan="2"></th>
+                            </tr>
+                            <tr>
+                                <th>Nombre de ventes</th>
+                                <th>Nombre de retour</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodystate">
+
+                        </tbody>
+                    </table>
+                    <div class="plusDetaille">
+                        Plus Détaille
+                    </div>
+                </div>
+                <div class="dessin">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="stateTotal">
+            <h4 id="titreDetaille"></h4>
+            <div class="listVR">
+                <div class="listV">
+                    <table>
+                        <thead>
+                            <tr><th colspan="2">Liste des Produits</th></tr>
+                            <tr>
+                                <th> Nom </th>
+                                <th>Quantite</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodylistV"></tbody>
+                    </table>
+
+                </div>
+                <div class="listR">
+                    <table>
+                        <thead>
+                            <tr><th colspan="2">Liste des Retours</th></tr>
+                            <tr>
+                                <th> Nom </th>
+                                <th>Quantite</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodylistR"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="retour"> <a href="index.html">Retour à la page principale</a></div>
+    </div>
+
+
+
+    <script src="js/state.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/stateGraphe.js"></script>
+    <script src="js/stateTotal.js"></script>
+</body>
+
+</html>

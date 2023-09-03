@@ -1,0 +1,130 @@
+
+#titreAf{
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: underline;
+}
+
+.afficherProduit{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; 
+    flex-wrap: wrap;
+    border: 1px solid red;
+    height: 75%;
+   
+   
+}
+.item {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    width: 20%;
+    border-radius: 20px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  .nomProduit{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  
+  .sommaire{
+    display: flex;
+    align-items: center;
+    background-color:#db34343f;
+    justify-content: center;
+    gap:15px;
+    width: 80%;
+    height: 10%;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .nbSommaire{
+    background-color:azure;
+    color: black;
+    width: 3%;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #spanS{
+    position: relative;
+    top: -98%;
+    left:95%;
+    width: 5%;
+    cursor: pointer;
+  }
+  #nombreAchat{
+    position: absolute;
+    top:45%;
+    right: 60%;
+    background-color: aqua;
+    border-radius:50% ;
+    font-size: 12px;
+    padding: 1px;
+    color: black;
+    width: 20%;
+    text-align: center;
+    }
+    .listDesachat{
+      position: absolute;
+      width: 300px;
+      background-color: rgb(26, 26, 180);
+      height: 80vh;
+      right: 50%;
+      text-align: center;
+      font-size: 12px;
+      padding: 10px;
+      overflow-y: scroll;
+    }
+      .displayNone{
+      display: none;
+    }
+    .OpacityClass{
+      opacity: 0.5;
+    }
+    .OpacityClass input, .OpacityClass button, .OpacityClass div{
+      cursor: not-allowed;
+    }
+    .maTable {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+      
+  }
+  
+  .maTable th, .maTable td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ccc;
+      text-align: center;
+  }
+  
+  .maTable thead {
+      background-color: #f30909a6;
+  }
+  
+  .maTable tfoot {
+      background-color: #cc393963;
+      font-weight: bold;
+  }
+
+  
+  

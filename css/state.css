@@ -1,0 +1,109 @@
+.choix, .selection{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px rgba(255, 250, 250, 0.438) solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.selection, #end, #endS{
+    display: none;
+}
+
+.statGenerale{
+    width: 100%;
+    display: flex;
+    height: 40%;
+}
+/*class statistique et ces fils*/
+.Statistique{
+    width: 100%;
+    margin: 5px ;
+    border: 1px seagreen solid;
+    padding: 10px;
+     display: flex;
+     gap:10px;
+    height: 100%;
+
+}
+
+.chiffre{
+    width: 20%;
+    border: 1px salmon solid;
+    text-align: center;
+}
+.dessin{
+    width: 80%;
+    margin: 5px auto;
+    border: 1px salmon solid;
+    height: 100%;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    color:black;
+    text-align: center;
+}
+#titreTableau{
+    background-color: rgb(51, 181, 224);
+}
+table thead {
+    background-color: #f30909a6;
+}
+
+table tfoot {
+    background-color: #cc393963;
+    font-weight: bold;
+}
+/*fin class statistique*/
+
+.plusDetaille{
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    width: 50%;
+    margin: 5px auto;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px;
+}
+.stateTotal{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.377);
+    border: yellow;
+    height: 40%;
+    overflow:auto;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px
+}
+.listVR{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.listV, .listR{
+    width: 50%;
+    background-color: red;
+    overflow: auto;
+   
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/listeAchat.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Hanout</title>
+</head>
+<body>
+    <div class="containerListe">
+        <div class="dateVente">
+            <label>Date de vente</label>
+            <select id ="dateV">
+    
+            </select>
+          </div>
+       <div id="listAchatProduit">
+        <h1 class="titre">Liste des achats</h1>
+      
+       <div class="listAchat">
+        <table>
+            <thead>
+                <tr>
+                    <th>N°achat</th>
+                    <th> Designation</th>
+                    <th> Quantite</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="tbodyL"></tbody>
+        </table>
+      </div>
+    </div>
+   <div id="listRetourProduit"> 
+    <h1 class="titre">Liste des retours</h1>
+      <div class="Retour">
+        <button id="btnProduit">Ajouter retour</button>
+        <div  class="dateVente classNone">
+            <label>Produit</label>
+            <select id ="listeRetour"></select>
+            <label>Quantite</label>
+            <input id="quantiteRetour" type="number" value="">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Designation</th>
+                    <th>Quantité</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyR"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="retour"> <a href="index.html">Retour à la page principale</a></div>
+</div>
+
+
+   <script src="js/listeAchat.js"></script>
+
+
+</body>
+
+</html>

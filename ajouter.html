@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ajouter.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <title>Hanout</title>
+</head>
+<body>
+    <div class="container">
+       <div class="ajouter">
+       
+        <h1>  Ajouter produit        </h1>
+
+          <div class="disgnation">
+            <label for="">Designation</label>
+            <input type="text" name="des" id="des">
+            
+            <label for="">Quantité</label>
+            <input type="number" name="quan" id="quan">
+
+            <label for="">Date d'achat</label>
+            <input type="date" name="dateA" id="dateA">
+
+            <label for="">Type</label>
+            <select name="type" id="type"></select>
+          </div>
+
+          <div class="achat">
+            <label for="">Prix Achat</label>
+            <input type="number" name="prixA" id="prixA">
+
+            <label for="">Prix vente</label>
+            <input type="number" name="prixV" id="prixV">
+          </div>
+
+          <div class="uplo">
+            <img src="" alt="" id="img" name="image">
+            <label for="upload" id="labelUp">Charger une image </label>
+            <input type="file" id="upload">
+
+        </div>
+
+          <div id="enregistre">Enregistre</div>
+
+       </div>
+       
+       <table>
+        <thead>
+          <tr>
+            <th> Designation</th>
+            <th> Quantité</th>
+            <th> date d'achat</th>
+            <th>type</th>
+            <th>Prix Achat</th>
+            <th>Prix vente</th>
+            <th>IMG</th>
+            <th>Operation</th>
+          </tr>
+        </thead>
+       <tbody  id="tbl">
+
+       </tbody>
+        
+       </table>
+       <div class="retour"> <a href="index.html">Retour à la page principale</a></div>
+    </div>
+
+
+   
+
+    <script src="js/ajouter.js"></script>
+    
+</body>
+
+</html>
